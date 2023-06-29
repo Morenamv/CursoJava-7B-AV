@@ -1,4 +1,4 @@
-public class TablasMultiplicar {
+public class Ejercicio18 {
     public static void main(String[] args) {
         System.out.println("Tablas de multiplicar del 1 al 10:");
 

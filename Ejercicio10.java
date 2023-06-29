@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MayorDeTres {
+public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,14 +15,15 @@ public class MayorDeTres {
 
         int mayor = numero1;
 
-        if (numero2 > mayor) {
+        if (numero2 > mayor && numero2 > numero3) {
             mayor = numero2;
         }
 
-        if (numero3 > mayor) {
+        if (numero3 > mayor && numero3 > numero2) {
             mayor = numero3;
         }
 
         System.out.println("El número mayor de los tres es: " + mayor);
     }
 }
+
